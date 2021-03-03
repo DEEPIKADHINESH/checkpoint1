@@ -1,19 +1,22 @@
 <html>
     <head>
         <title>Detail</title>
+        <link href="styles/common.css" rel="stylesheet"/>
+        <link href="styles/common.css" rel="stylesheet"/>
     </head>
         <body>
+            <div id=main></div>
             <header>
-                <a href="index.html">
-           <img src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
-           alt = "logo" height = "150"width ="200"/></a>
-            
-           <a href ="login.html" target =_"blank" >Log in</a>
+                 <a href="index.html">
+           <img class= "logo" src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
+           alt = "logo"></a>
+            <a href ="login.html" target =_"blank" >Log in</a>
         </header>
         <section>
-           <img src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+           <img class ="selectedhtl"src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
            <br/>
            <form>
+               
                <label for="adults">Adults</label>
                <input type="number" min="1" ><br/>
                <label for="name">Name</label>
@@ -24,7 +27,8 @@
                <input type="date" id=todate><br/>
                <label for="total Amount">Total</label>
                <input type="number" disabled/><br/>
-               <a href="payment.html">Booknow</a>
+               <form method="GET" action="payment.html"></form>
+               <input type="submit" value="BoookNow">
            </form>
            <h2>Radisson Blu Hotel</h2>
            <div>Rating</div>
@@ -46,11 +50,11 @@
            <a href ="contact.html" target="_blank">Contact Us</a>
            <div>
             <a href="https://www.facebook.com" target="_blank">
-           <img src ="assests/images/facebook.png" height ="20px" width ="22px">
+           <img class="socialmediaimage" src ="assests/images/facebook.png" >
            <a href="https://www.instagram.com" target="_blank"></a>
-           <img src ="assests/images/instagram.png" height ="20px" width ="22px">
+           <img class="socialmediaimage" src ="assests/images/instagram.png" >
            <a href="https://twitter.com"target="_blank"></a>
-           <img src ="assests/images/twitter.png" height="20px" width ="22px">
+           <img class="socialmediaiamge" src ="assests/images/twitter.png">
            </div>
         </footer>
            <p>&copy 2020 ROOM SERVICE PVT LTD</p>

@@ -1,0 +1,16 @@
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 1%;
+}
+
+.socialmediaimage{
+    height: 20px;
+    width: 22px;
+
+}
