@@ -1,5 +1,10 @@
 .listimage{
     height: 200px;
     width: 250px;
-    
+}
+#position{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+   
 }

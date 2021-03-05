@@ -2,11 +2,11 @@
     <head>
         <title>Detail</title>
         <link href="styles/common.css" rel="stylesheet"/>
-        <link href="styles/common.css" rel="stylesheet"/>
+        <link href="styles/detail.css" rel="stylesheet"/>
     </head>
-        <body>
+        <body id="color">
             <div id=main></div>
-            <header>
+            <header class="head">
                  <a href="index.html">
            <img class= "logo" src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
            alt = "logo"></a>
@@ -14,22 +14,21 @@
         </header>
         <section>
            <img class ="selectedhtl"src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-           <br/>
-           <form>
-               
-               <label for="adults">Adults</label>
-               <input type="number" min="1" ><br/>
-               <label for="name">Name</label>
-               <input type="text" id=name><br/>
-               <label for="From date">From date</label>
-               <input type="date" id = date><br/>
-               <label for="to date">To date</label>
-               <input type="date" id=todate><br/>
-               <label for="total Amount">Total</label>
-               <input type="number" disabled/><br/>
-               <form method="GET" action="payment.html"></form>
-               <input type="submit" value="BoookNow">
+           <form action="payment.html" method="GET" target="_self">
+            <label for="adults"class="align">Adults:
+               <input type="number" min="1" ></label></br>
+               <label for="name" class="align" >Name:
+               <input type="text" id=name ><br/></label>
+               <label for="From date"class="align" >From date:
+               <input type="date" id = date ><br/></label>
+               <label for="to date" class="align">To date:
+               <input type="date"  id=todate ><br/></label>
+               <label for="total Amount" class="align">Total:
+               <input type="number"  disabled ><br/></label>
+                <input type="submit"  class="align" value="BookNow:">
+            </div>
            </form>
+           <div class="hotel">
            <h2>Radisson Blu Hotel</h2>
            <div>Rating</div>
            <div>5 star</div>
@@ -41,23 +40,24 @@
                    <li>Fitness Center</li>
                </ul>
            </div>
+        </div>
            <div>
-               <h6>DESCRIPTION</h6>
-               <span>The hotel was opened three years before </span>
+               <h4 class="hotel">DESCRIPTION</h4>
+               <div class="hotel">The hotel was opened three years before </div>
            </div>
         </section>
-           <footer>
-           <a href ="contact.html" target="_blank">Contact Us</a>
-           <div>
+           <footer class="head">
+            <a href ="contact.html" target =_blank>Contact Us</a>
+            <br/>
             <a href="https://www.facebook.com" target="_blank">
-           <img class="socialmediaimage" src ="assests/images/facebook.png" >
-           <a href="https://www.instagram.com" target="_blank"></a>
-           <img class="socialmediaimage" src ="assests/images/instagram.png" >
-           <a href="https://twitter.com"target="_blank"></a>
-           <img class="socialmediaiamge" src ="assests/images/twitter.png">
-           </div>
-        </footer>
+            <img  class="socialmediaimage"src ="assests/images/facebook.png"></a>
+            <a href="https://www.instagram.com" target="_blank">
+            <img class="socialmediaimage" src ="assests/images/instagram.png"></a>
+            <a href="https://twitter.com"target="_blank">
+            <img class="socialmediaimage"src ="assests/images/twitter.png" ></a>
+         </div>
            <p>&copy 2020 ROOM SERVICE PVT LTD</p>
+        </footer>
         </body>
     
 </html>

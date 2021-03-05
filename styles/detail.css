@@ -1,4 +1,11 @@
 .selectedhtl{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0% 4%;;
+}
+.align{
+ margin :0% 4% 1% 4%;
+}
+.hotel{
+    margin: 1% 4% 4% 2%;
 }

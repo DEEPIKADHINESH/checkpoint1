@@ -7,10 +7,18 @@
     height: 60px;
     width: 60px;
     margin-left: 1%;
-}
+    }
 
 .socialmediaimage{
     height: 20px;
     width: 22px;
-
+   
 }
+#color{
+    background-color:#e0e0e0;
+    margin:0% ;
+}
+.head{
+    background-color: rosybrown;
+}
+    

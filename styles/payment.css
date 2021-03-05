@@ -2,3 +2,22 @@
     height: 500px;
     width: 500px;
 }
+.image{
+    background-color:rgb(132,136,139);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:800px;
+    height: 600px;
+}
+.details{
+    margin: 2%;
+}
+.booking{
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    
+}
