@@ -2,17 +2,19 @@
     position: absolute;
     height: 100%;
     width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 .logo{
     height: 60px;
     width: 60px;
-    margin-left: 1%;
+    margin: 1%;
     }
 
 .socialmediaimage{
     height: 20px;
     width: 22px;
-   
+    float: right;
+    
 }
 #color{
     background-color:#e0e0e0;
@@ -20,5 +22,26 @@
 }
 .head{
     background-color: rosybrown;
+    
+}     
+ #login{
+     float: right;
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+    
+ }
+     
+#room{
+   text-align: center;
+   font-size: 10px;
 }
+a{
+    text-decoration: none;
+    color:black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+     }
+
     

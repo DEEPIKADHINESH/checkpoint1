@@ -10,20 +10,19 @@
                 <a href="index.html">
            <img class="logo" src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
            alt = "logo"></a> 
-           <a href ="login.html" target =_blank>Login</a>
+           <a href ="login.html" id="login" target =_blank>Login</a>
         </header>
         <section >
-            <ul>
-          <li> <a href ="list.html">List View</a></li>
-         <li><a href ="list.html">Map View</a></li>
-           </ul>
+           <div id=list>
+             <span> <a href =".listimage">List View</a></span>
+            <span><a href =".mapview">Map View</a></span>
+           </div>
            <div id="position">
-         <img class="listimage"  src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><a href="detail.html">
+            <a href="detail.html"> <img class="listimage"  src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></a>
            <h3>Radisson Blu Hotel</h3>
            <div>5 star</div>
            <div>Delhi</div>
-           </a>    
-        </div>
+           </div>
         <div id="position">
            <img class="listimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
            <h3>Lalit New Delhi</h3>
@@ -36,8 +35,8 @@
            <div>5 star</div>
            <div>New Delhi</div>
         </div>
-           <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
-           <div> Map View</div>
+           <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" class="mapview" >
+           <div class="mapview"> Map View</div>
         </section>
         
            <footer class="head">
@@ -49,7 +48,7 @@
            <img class=socialmediaimage src ="assests/images/instagram.png" height="20px" width ="22px"></a>
            <a href="https://twitter.com"target="_blank">
            <img class=socialmediaimage src ="assests/images/twitter.png" height ="20px" width ="22px"></a>
-           <p>&copy 2020 ROOM SERVICE PVT LTD</p>
+           <p id="room">&copy 2020 ROOM SERVICE PVT LTD</p>
            </footer> 
         
            
