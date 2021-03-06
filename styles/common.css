@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
+   
 }
 .logo{
     height: 60px;
@@ -18,12 +19,24 @@
 }
 #color{
     background-color:#e0e0e0;
-    margin:0% ;
+    
 }
 .head{
     background-color: rosybrown;
-    
-}     
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 80;
+    left:0;
+    }
+.footer{
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+   bottom:0;
+  
+
+}
  #login{
      float: right;
     margin: 10px;

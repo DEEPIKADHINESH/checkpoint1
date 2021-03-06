@@ -3,6 +3,7 @@
     width: 150px;
     padding: 4%;
     border-radius: 25%;
+    
 }
 #content{
 background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
@@ -14,11 +15,16 @@ background-position: center;
 #searchbar{
      margin-left:500px;
      margin-top: 200px;
+     margin-bottom: 0%;
     border: 1px solid white;
     border-radius: 12px;
     padding: 10px;
     font-size: 16px;
-}
+    width: 350px;
+    }
 #viewmore{
-    margin: 500px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    position: absolute;
 }
