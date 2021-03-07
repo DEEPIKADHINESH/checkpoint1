@@ -1,12 +1,15 @@
 .listimage{
     height: 200px;
     width: 200px;
-    
-}
-#position{
+   }
+.position{
     margin: 2%;
-    background-color: rgb(132,136,139);
-    width: 40%;
+    background-color:lightgrey;
+    width: 30%;
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+    float: left;
 }
 #list{
    text-align: center;
