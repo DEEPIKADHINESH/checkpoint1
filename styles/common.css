@@ -15,7 +15,6 @@
     height: 20px;
     width: 22px;
     float: right;
-    
 }
 #color{
     background-color:#e0e0e0;
@@ -37,6 +36,7 @@
      height: 45px;
      left:0;
      
+     
    }
  #login{
      float: right;
@@ -49,9 +49,10 @@
 #room{
    text-align: center;
    font-size: 10px;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
    position:fixed;
-   justify-content: center;
+   margin-left: 500px;
+  
 }
 a{
     text-decoration: none;

@@ -1,6 +1,6 @@
 .container2{
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     padding: 4%;
     border-radius: 25%;
     
@@ -69,5 +69,6 @@ background-position: center;
          color: #f1f1f1;
      }
 .container2:hover.overlay{
-                    opacity: 2;
-                }
+    opacity: 2;
+ }
+ 
