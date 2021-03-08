@@ -4,7 +4,11 @@
         <link href="styles/common.css" rel="stylesheet">
      <link href="styles/list.css" rel="stylesheet">
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
         <body id="color">
             <div id ="main"></div>
@@ -20,7 +24,13 @@
             <a href="detail.html"> <img class="listimage"  src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
            <div>
             <h3>Radisson Blu Hotel</h3>
-           <div>5 star</div>
+           <div class=rating>
+             <input type="radio" name=rating id=star1><label for=star1></label>
+             <input type="radio" name=rating id=star2><label for=star2></label>
+             <input type="radio" name=rating id=star3><label for=star3></label>
+             <input type="radio" name=rating id=star4><label for=star4></label>
+             <input type="radio" name=rating id=star5><label for=star5></label>
+             </div>
            <div> 144, New Shop NewDelhi</div>
            </a>
          </div>
@@ -29,16 +39,28 @@
            <img class="listimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
            <div>
            <h3>Lalit New Delhi</h3>
-           <div>4 star</div>
+            <div class=rating>
+              <input type="radio" name=rating id=star1><label for=star1></label>
+              <input type="radio" name=rating id=star2><label for=star2></label>
+              <input type="radio" name=rating id=star3><label for=star3></label>
+              <input type="radio" name=rating id=star4><label for=star4></label>
+              <input type="radio" name=rating id=star5><label for=star5></label>
+              </div>
            <div> 512 Near redfort New Delhi</div>
          </div>
         </div>
-        <nav>>
+        <nav>
            <div class="position">
            <img class="listimage"src ="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
            <div>
            <h3>Taj Palace</h3>
-           <div>5 star</div>
+           <div class=rating>
+            <input type="radio" name=rating id=star1><label for=star1></label>
+            <input type="radio" name=rating id=star2><label for=star2></label>
+            <input type="radio" name=rating id=star3><label for=star3></label>
+            <input type="radio" name=rating id=star4><label for=star4></label>
+            <input type="radio" name=rating id=star5><label for=star5></label>
+            </div>
            <div> 315 Murugrshpala New Delhi</div>
          </div>
         </div>
@@ -61,7 +83,18 @@
            <img class=socialmediaimage src ="assests/images/twitter.png"></a>
            <p id="room">&copy 2020 ROOM SERVICE PVT LTD</p>
            </footer> 
-        
+           <div style="overflow:auto; height: 100%; background-color: #e0e0e0;" class="Content">
+            <div style="margin-left: 3%; margin-right: 5%;margin-top: 5%;  " id="container">
+              <div id="container">
+                <ul class="nav nav-pills" id="pills-tab" style="display: flex; justify-content: center; align-items: center;">
+                  <li class="nav-item">
+                      <a class="nav-link active" data-toggle="pill" href="#list">List view</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#map">Map View</a>
+                  </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
            
         </body>
     

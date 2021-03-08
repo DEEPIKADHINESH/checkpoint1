@@ -18,3 +18,9 @@
 .mapview{
     display: none;
 }
+.rating label{
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
