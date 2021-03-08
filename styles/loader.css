@@ -1,8 +1,16 @@
+
 .ring{
     width:70px;
     height:70px;
     border:12px solid #f3f3f3;
-    border-radius: 50%;
-    margin: 50%;
+    border-radius: 50px;
+    margin: 70px auto;
     border-top: 12px solid #444444;
+    animation: animate 1s linear infinite;
+    }
+
+@keyframes animate{
+        100%{
+        transform: rotate(360deg);
+    }
 }
