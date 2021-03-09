@@ -6,21 +6,17 @@
     margin: 2%;
     background-color:lightgrey;
     width: 30%;
-    display: flex;
     justify-content:start;
     align-items: flex-start;
-    float: left;
+    
 }
 #list{
    text-align: center;
    text-transform: lowercase;
 }
-.mapview{
-    display: none;
+.rating {
+    color:burlywood;
 }
-.rating label{
-    display:flex;
-    flex-direction: row;
-    cursor: pointer;
-
+.checked{
+    color:yellow;
 }

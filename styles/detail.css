@@ -1,7 +1,7 @@
-.selectedhtl{
+#selectedhtl{
     height: 300px;
     width: 500px;
-    margin: 2% 4% 0% 4%;;
+    margin:2% 4% 0% 4%;
 }
 .align{
  margin :0% 4% 1% 4%;
@@ -20,4 +20,7 @@
     margin-top: 45px;
     margin-right:100px;
     width:500px;
+}
+.checked{
+    color: yellow;
 }

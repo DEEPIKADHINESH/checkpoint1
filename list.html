@@ -7,7 +7,7 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
         <body id="color">
@@ -20,56 +20,65 @@
          </div></a>
         </header>
         <section >
+          
            <div  id=listview class="position" >
             <a href="detail.html"> <img class="listimage"  src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
            <div>
+             <div>
             <h3>Radisson Blu Hotel</h3>
            <div class=rating>
-             <input type="radio" name=rating id=star1><label for=star1></label>
-             <input type="radio" name=rating id=star2><label for=star2></label>
-             <input type="radio" name=rating id=star3><label for=star3></label>
-             <input type="radio" name=rating id=star4><label for=star4></label>
-             <input type="radio" name=rating id=star5><label for=star5></label>
-             </div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>  
+            </div>
            <div> 144, New Shop NewDelhi</div>
+          </div>
            </a>
          </div>
            </div>
+           <div>
         <div class="position">
            <img class="listimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
            <div>
            <h3>Lalit New Delhi</h3>
-            <div class=rating>
-              <input type="radio" name=rating id=star1><label for=star1></label>
-              <input type="radio" name=rating id=star2><label for=star2></label>
-              <input type="radio" name=rating id=star3><label for=star3></label>
-              <input type="radio" name=rating id=star4><label for=star4></label>
-              <input type="radio" name=rating id=star5><label for=star5></label>
-              </div>
            <div> 512 Near redfort New Delhi</div>
-         </div>
-        </div>
+           
+            <div class=rating>
+              <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>  
+            </div>
+          </div>
+           </div>
         <nav>
+          <div>
            <div class="position">
            <img class="listimage"src ="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
            <div>
            <h3>Taj Palace</h3>
            <div class=rating>
-            <input type="radio" name=rating id=star1><label for=star1></label>
-            <input type="radio" name=rating id=star2><label for=star2></label>
-            <input type="radio" name=rating id=star3><label for=star3></label>
-            <input type="radio" name=rating id=star4><label for=star4></label>
-            <input type="radio" name=rating id=star5><label for=star5></label>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>  
             </div>
            <div> 315 Murugrshpala New Delhi</div>
          </div>
+         </div>
         </div>
       </nav>
+      <nav>
       <div id=mapview class="tab-pane fade">
            <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" class="mapview" >
-           <div class="mapview"> Map View</div>
+           <div class=mapview> Map View</div>
            </div>
           </div>
+        </nav>
         </section>
         
            <footer class=footer>
@@ -91,10 +100,11 @@
                       <a class="nav-link active" data-toggle="pill" href="#list">List view</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" data-toggle="pill" href="#map">Map View</a>
+                      <a class="nav-link" data-toggle="pill" href="#mapview">Map View</a>
                   </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
+           
            
         </body>
     

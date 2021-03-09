@@ -20,7 +20,35 @@
         </div></a>
         </header>
         <section>
-           <img class ="selectedhtl"src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+          <div id="maincontainer" style="width: 500px; height: 300px; margin-top: 50px;>
+            <div id="caroselind" class=carouselslide data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li>data-target="carouselind" data-slide-to="0" class="active"></li>
+                <li>data-target="carouselind" data-slide-to="1" ></li>
+                <li>data-target="carouselind" data-slide-to="2" ></li>
+               </ol>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <a href="payment.html"> <img id="selectedhtl" src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="d-block w-100" alt="...">
+              </div></a>
+              <div class="carousel-item">
+                <img id="selectedhtl" src= "https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
+                 class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  id="selectedhtl"src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div></div>
            <div class=column>
            <form action="payment.html" method="GET" target="_self">
             <label for="adults"class="align">Adults:</label>
@@ -38,8 +66,14 @@
            </form>
            <div class="hotel">
            <h2>Radisson Blu Hotel</h2>
-           <div>Rating</div>
-           <div>5 star</div>
+            <div class=rating>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>  
+            </div>
+           </div>
            <div>
                <ul>
                    <li>Room Service</li>
@@ -123,7 +157,3 @@
         </div>
       </div>
     </div>
-
-        </body>
-    
-</html>
