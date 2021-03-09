@@ -71,4 +71,6 @@ background-position: center;
 .container2:hover.overlay{
     opacity: 2;
  }
- 
+ .container2:hover+.test{
+     visibility: visible;
+ }
