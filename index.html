@@ -8,36 +8,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-         <div id="main"></div>
-    </head>
-        <body id="color">
-            <header class="head"> 
-           <img class="logo" src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" 
-           alt = "logo" />
-         <a href="login.html" id="login"><button type="button">LOGIN</button></a>
+<div id="main"></div>
+</head>
+<header class='head'></header>
+    <body id="color">
+        <header class="head"> 
+       <img class="logo" src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" 
+       alt = "logo" />
+     <a href="login.html" id="login"><button type="button">LOGIN</button></a>
 </div>
-        </header>
+    </header>
+              
         <div id=content>
              <input type="text" placeholder="city" id="searchbar">
         </div>
+      </header>
      <section>
-         <div id=div2 >
+         <div class=div2 >
           <div  class="container2">
             <a href="list.html">             
-           <img  src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" class=card1>
+           <img  src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"  class=cards >
             <div class=overlay>
              <div class=text>Delhi</div>
          </div>
         </a>
-        </div>
+      </div>
         <div class="container2">
-          <img class="cards" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
+          <img class="cards" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" class="cards">
           <div class=overlay>
               <div class="text">Goa</div>
           </div>
         </div>
         <div class="container2">
-        <img  src ="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="cards">
+        <img  src ="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="cards" >
         <div class=overlay>
             <div class=text>charminar</div>
         </div>
@@ -48,8 +51,34 @@
              <div class=text>Kolkatta</div>
          </div>
         </div>
-           <a href ="index.html" id="viewmore" >View more>></a>
-        </div>
+        
+      </div>
+      <a href ="index.html" id="viewmore"><button type="button" onclick="more()">viewmore>></button> </a>
+    <span id="viewless">
+      <div class="div2" >
+       <div class="container2">
+         <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" class="cards"> 
+        <div class="overlay">
+          <div class=text>chennai</div>
+        </div></div>
+        <div class="container2">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" class="cards">
+        <div class="overlay">
+          <div class=text>Agra</div>
+        </div></div>
+        <div class="container2">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" class="cards">
+          <div class="overlay">
+            <div class=text>Jaipur</div>
+          </div></div>
+          <div class="container2">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" class="cards">
+            <div class="overlay">
+              <div class=text>Bangalore</div>
+            </div></div>
+            </div> </div>
+          </div></div></span>
+   </div> 
          </section>
         <Footer class=footer>
             <a href ="contact.html"  target =_blank> </a>
@@ -120,7 +149,8 @@
           </div>
     </div>
   
-    
+    <script  src="scripts/common.js" type="module"></script>
+    <script src="scripts/index.js" type="module"></script>
     
     </body>
 
