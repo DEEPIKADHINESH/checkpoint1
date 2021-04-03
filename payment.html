@@ -12,13 +12,7 @@
         <div id=main></div>
     </head>
         <body id="color">
-            <header class="head">
-               <a href="index.html">
-           <img class=logo src ="C:\web development project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
-           alt = "logo"/></a>
-           <a href ="login.html" id="login" target ="_blank" ><button type="button">LOGIN</button></a>
-         </div></a>
-        </header>
+            <header class="head" id="header">
            <section>
               <div class="image">
            <img id="payimg" src ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
@@ -37,22 +31,13 @@
                     <h6><li>Total Amount:8000</li></h6>
                   </ul>
                     <h6><p><button type="button" class="btn btn-success">PAYNOW</button></p></h6>
+                    <button type="button" class="btn btn-success" onclick="Paynow()">PAY</button>
            </div>
         </section>
-           <footer class=footer>
-           <a href ="contact.html" target="_blank"><button type="button" class="btn btn-primary">Contact Us</button></a>
-           <br/>
-           <a href="https://www.facebook.com" target="_blank">
-           <img  class="socialmediaimage"src ="assests/images/facebook.png"></a>
-           <a href="https://www.instagram.com" target="_blank">
-           <img class="socialmediaimage" src ="assests/images/instagram.png"></a>
-           <a href="https://twitter.com"target="_blank">
-           <img class="socialmediaimage"src ="assests/images/twitter.png" ></a>
-        </div>
-        </div>
-           <P id=room>&copy 2020 ROOM SERVICE PVT LTD</P>
+           <footer class=footer id =footer>
         </footer>
-           
+           <script src="scripts/common.js"></script>
+           <script src="scripts/payment.js"></script>
         </body>
     
 </html>

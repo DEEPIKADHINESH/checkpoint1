@@ -5,21 +5,23 @@
 }
 .align{
  margin :0% 4% 1% 4%;
+ 
 }
 .hotel{
     margin: 1% 4% 4% 2%;
 }
 .column{
     float: right;
-    justify-content: start;
+    justify-content:start;
     font-family: cursive;
     display: flex;
     border: 5px solid black;
     border-radius: 5px;
     align-items: center;
-    margin-top: 45px;
-    margin-right:100px;
+    margin-left:300px;
+    margin-right: 0px;
     width:500px;
+
 }
 .checked{
     color: yellow;
