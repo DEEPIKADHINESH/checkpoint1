@@ -42,9 +42,8 @@ document.getElementById('header').innerHTML = headerTemplate;
 };
 displayHeaderTemplate();
 var displayFooterTemplate =()=>{
-    var footerTemplate= `<a href ="contact.html" target =_blank><button type="button" class="btn btn-primary">Contact Us</button></a>
-    <br/>
-    <a href="https://www.facebook.com" target="_blank">
+    var footerTemplate=
+    `<a href="https://www.facebook.com" target="_blank">
     <img  class="socialmediaimage"src ="assests/images/facebook.png"></a>
     <a href="https://www.instagram.com" target="_blank">
     <img class="socialmediaimage" src ="assests/images/instagram.png"></a>
@@ -52,37 +51,34 @@ var displayFooterTemplate =()=>{
     <img class="socialmediaimage"src ="assests/images/twitter.png" ></a>
  </div>
    <p id="room">&copy 2020 ROOM SERVICE PVT LTD</p>
-  button type="button" class="btn btn-info btn-sm" id="contactus" data-toggle="modal" data-backdrop="false"
-                data-target="#contact-modal">Contact Us</button>
-
-            <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="contact-modal-label">Get in touch</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <p>
-                                    Thank you for reaching out!!! <br>
-                                    Please enter you email and we will get back to you.
-                                </p>
-                                <label for="email">Email: </label>
-                                <input type="text" id="email" name="email" placeholder="Enter your email id" required>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Sumbit</button>
-                        </div>
-                    </div>
-                </div>
-            </div>`
-
-   ;
+                  <button type="button" class="btn btn-info btn-sm" id="contactus" data-toggle="modal" data-backdrop="false"
+   data-target="#contact-modal">Contact Us</button>
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title" id="contact-modal-label">Get in touch</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+               </button>
+           </div>
+           <div class="modal-body">
+               <form>
+                   <p>
+                       Thank you for reaching out!!! <br>
+                       Please enter you email and we will get back to you.
+                   </p>
+                   <label for="email">Email: </label>
+                   <input type="text" id="email" name="email" placeholder="Enter your email id" required>
+               </form>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-primary" data-dismiss="modal">Sumbit</button>
+           </div>
+       </div>
+   </div>
+</div>`;
    
 document.getElementById('footer').innerHTML = footerTemplate;
 };

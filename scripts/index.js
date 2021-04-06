@@ -1,10 +1,12 @@
-const more = document.querySelector('#more');
-const viewmore = document.querySelector('#viewmore');
-  more.addEventListener('click',(a) => {
-    viewmore.classList.toggle('view more');
-    if(more.innerHTML ==='viewmore'){
-      more.innerHTML='viewless';
-    }else{
-      more.innerHTML='viewmore';
-    }
-  })
+function more(){
+  var x =document.getElementsById("viewmore");
+  console.log(x)
+  if(x.textcontent ==="viewmore") {
+    document.getElementsById("hiddenview").style.display =flex;
+    x.innerText="viewless";
+}
+else{
+  document.getElementsById("hiddenview").style.display=none;
+  x.innerText="viewmore"
+}
+}

@@ -42,17 +42,17 @@
           </div></div>
            <div class=column style="margin-left: 50%;">
            <form action="payment.html" method="GET" target="_self">
-            <label for="adults"class="align">Adults:</label>
-               <input type="number" min="1" required><br/> 
-               <label for="name" class="align" >Name:</label>
+            <label for="adults"class="align"onclick="paymentdetail()">Adults:</label>
+               <input type="number" min="1" id="member" required><br/> 
+               <label for="name" class="align" onclick="paymentdetail()">Name:</label>
                <input type="text" id=name required ><br/>
-               <label for="From date"class="align">From date:</label>
-               <input type="date" id = date required><br/>
-               <label for="to date" class="align">To date:</label>
+               <label for="From date"class="align" onclick="paymentdetail()">From date:</label>
+               <input type="date" id =fromdate required><br/>
+               <label for="to date" class="align" onclick="paymentdetail()">To date:</label>
                <input type="date"  id=todate required ><br/>
-               <label for="total Amount" class="align">Total:</label>
+               <label for="total Amount" class="align" onclick="paymentdetail()">Total:</label>
                <input type="number"  disabled required ><br/>
-               <input type="button" id="submit"  class="align" value="BookNow" >
+               <button type="button" id="submit" onclick="paymentdetail()" class="align">BOOKNOW</button>
             </div>
            </form>
            <div class="hotel">
