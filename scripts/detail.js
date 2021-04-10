@@ -7,5 +7,8 @@ paymentdetail=(callback)=>{
     var totalAmount=parseInt(totaldate/(1000*60*60*24))*adults*1000;
     callback();
     document.getElementsById("submit").value=totalAmount;
-  
-}
+  }
+  function setMinDate(){
+      document.getElementsById("todate").min=document.getElementsById("fromdate").value;
+      
+  }
